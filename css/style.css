@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: darkred;
+    color: white;
+    width: 100%;
+}
+#top-header{
+    width: 100%;
+    padding: 30px 0px 30px 0px;
+    background-color: black;
+    color: white;
+}
+#top-header h1{
+    text-align: center;
+}
+#menu {
+    text-align: center;
+    width: 100%;
+    background-color:#1D1D1D;
+}
+#menu li{
+    background-color: #2c2c2c;
+    text-align: center;
+    display: inline-block;
+    width: 90px;
+    padding: 10px 0px;
+    border-radius: 3px;
+}
+#menu li a{
+    text-decoration: none;
+    height: auto;
+    color: white;
+}
+#menu li:hover{
+    color: white;
+    background-color: darkred
+}
+body{
+    background-color: black;
+}
+main{
+    background-color: grey;
+}
+#sectie{
+    position: relative;
+    height: 600px;
+    width: 1300px;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+#image{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    display: inline-block;
+    height: 600px;
+    width: 900px;
+}
+#textvlak{
+    position: absolute;
+    display: inline-block;
+    background-color: darkred;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 400px;
+    height: 600px;
+}
+#inventory{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #AD0000;
+    width: 400px;
+    height: 100px;
+    border-bottom-right-radius: 25px;
+}
+#inventory h2,p {
+    margin: 5px;
+}
+#title{
+    width: 350px;
+    margin: 30px auto;
+}
+#options{
+    width: 310px;
+    margin: 0 auto;
+    margin-left: 30px;
+    text-align: left;
+    list-style-type: none;
+}
+#optie1, #optie2{
+    color: white;
+    text-decoration: none;
+}
+#optie1:hover, #optie2:hover{
+    color: darkgrey;
+}
+#musicplayer{
+    height: 125px;
+    width: 200px;
+    position: absolute;
+    right: 125px;
+    bottom: 0;
+}
+
+
+
+#kapiteinkoek{
+    height: 100%;
+    float:right;
+    overflow: auto;
+}

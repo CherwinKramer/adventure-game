@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Adventure Game: life</title>
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<meta charset="utf-8">
+    </head>
+    
+	<body>
+        <header>
+            <section id="top-header">
+                <h1>Adventure Game: Kapitein Koek</h1>
+            </section>
+            <ul id="menu">
+                <li><a href="#" onclick="start()" id="startgame">Start game</a></li>
+            </ul>
+
+            <!-- <div id="musicplayer">
+                <audio controls autoplay loop preload="metadata">
+                    <source src="bestanden/bassie.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div> -->
+            
+        </header>
+
+        <main>
+            <section id="sectie">
+                <img id="image" src="img/start.jpeg" alt="Kapitein Koek">
+                <div id="textvlak">
+                    <h1 id="title">Een spannend text-based avontuur. <br>
+                        Hieronder staan 2 opties waar je constant uit kan kiezen.</h1>
+                    <ul id="options">
+                        <li><a href="#" onclick="alert('optie1')" id="optie1">Optie 1</a></li>
+                        <li><a href="#" onclick="alert('optie2')" id="optie2">Optie 2</a></li>
+                        <li><a href="#" onclick="alert('optie3')" id="optie3">Optie 3</a></li>
+                    </ul>
+                    <div id="inventory">
+                        <h2>Inventaris:</h2>
+                        <p id="inventory-list"></p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <script type="text/javascript" src="js/game.js"></script>
+    </body>
+    
+</html>
