@@ -21,7 +21,7 @@ Technische eisen beschrijven aan welke vakgerichte voorwaarden de opdracht moet 
 
 Wie ben ik moet aan de volgende technische eisen voldoen:
 <!-- * elke locatie in het spel heeft een eigen functie; -->
-* elke functie logt de titel van het level naar de console; <!-- waar slaat dit op -->
+<!-- * elke functie logt de titel van het level naar de console; waar slaat dit op -->
 <!-- * elke functie stelt de optieknoppen, de titel, het plaatje en het verhaaltje; -->
 <!-- * het wisselen van locaties gebeurt door gebruik te maken van de onClick actions van de buttons; -->
 <!-- * je zorgt dat elk level een eigen afbeelding heeft; -->
@@ -29,5 +29,4 @@ Wie ben ik moet aan de volgende technische eisen voldoen:
 <!-- * het hele spel vindt plaats zonder de complete pagina te herladen (je mag dus geen links <a> gebruiken); -->
 
 ### Bonus
-* Gebruik een onload event om iets voor elkaar te krijgen op het moment dat de spelpagina helemaal is geladen (denk aan een animatie starten of een geluid afspelen);
-* Maak een minigame om een aanval te ontwijken (je kunt met verschillende toetsen heen en weer bewegen);
+<!-- * Gebruik een onload event om iets voor elkaar te krijgen op het moment dat de spelpagina helemaal is geladen (denk aan een animatie starten of een geluid afspelen); -->
