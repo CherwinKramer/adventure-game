@@ -2,113 +2,134 @@
     margin: 0;
     padding: 0;
 }
-header{
-    background-color: darkred;
-    color: white;
-    width: 100%;
-}
-#top-header{
-    width: 100%;
-    padding: 30px 0px 30px 0px;
-    background-color: black;
-    color: white;
-}
-#top-header h1{
-    text-align: center;
-}
-#menu {
-    text-align: center;
-    width: 100%;
-    background-color:#1D1D1D;
-}
-#menu li{
-    background-color: #2c2c2c;
-    text-align: center;
-    display: inline-block;
-    width: 90px;
-    padding: 10px 0px;
-    border-radius: 3px;
-}
-#menu li a{
-    text-decoration: none;
-    height: auto;
-    color: white;
-}
-#menu li:hover{
-    color: white;
-    background-color: darkred
+#audioplayer{
+    width: 0;
+    height: 0;
 }
 body{
-    background-color: black;
-}
-main{
-    background-color: grey;
+    background-image: url("../img/start.jpeg");
+    background-size: cover;
+    
 }
 #sectie{
-    position: relative;
-    height: 600px;
-    width: 1300px;
-    margin: 0 auto;
-    border-radius: 25px;
+    position: fixed;
+    bottom: 30px;
+    width: 100%;
 }
-#image{
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-    display: inline-block;
-    height: 600px;
-    width: 900px;
-}
-#textvlak{
+#refresh-container{
     position: absolute;
-    display: inline-block;
-    background-color: darkred;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-    width: 400px;
-    height: 600px;
+    height: 70px;
+    width: 70px;
+    left: 10px;
+    top: 10px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px;
 }
-#inventory{
+#refresh-container i{
+    text-align: center;
+    display: block;
+    padding: 3px 0px;
+    margin: 0 auto;
+}
+#refresh-container:hover, #volume-container:hover{
+    background-color: rgba(225, 225, 225, 0.50);
+}
+#volume-container{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    right: 10px;
+    top: 10px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px;
+}
+#volume {
+    text-align: center;
+    display: block;
+    padding: 3px 0px;
+    margin: 0 auto;
+}
+#topbar {
+    text-align: center;
+    display: block;
+    width: 100%;
+    background-color: rgba(31, 39, 238, 0.75);
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+#title {
+    display: inline;
+    padding: 10px;
+    color: #AEAEAE;
+}
+#intro {
+    display: none;
+    padding: 10px;
+    color: #FFFFFF;
+}
+#container {
+    background-color: rgba(0, 3, 90, 0.50);
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+#optioncontainer{
+    min-height: 80px;
+    display: inline-block;
+    width: 60%;
+}
+#sleutel-foto{
+    position: relative;
+    top: 270px;
+    left: 125px;
+    height: 80px;
+    display: none;
+}
+#jumpscare{
+    display: none;
+    height: 100%;
     position: absolute;
     bottom: 0;
-    left: 0;
-    background-color: #AD0000;
-    width: 400px;
-    height: 100px;
-    border-bottom-right-radius: 25px;
+    left: 25%;
 }
-#inventory h2,p {
-    margin: 5px;
+#slagersmes{
+    position: relative;
+    top: 475px;
+    left: 1000px;
+    height: 50px;
+    display: none;
 }
-#title{
-    width: 350px;
-    margin: 30px auto;
+#startbutton{
+    position: relative;
+    left: 80%;
+    top: 20px;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: grey;
+    color: #000000;
+    border-radius: 5px;
 }
-#options{
-    width: 310px;
-    margin: 0 auto;
-    margin-left: 30px;
-    text-align: left;
+#optioncontainer ul {
     list-style-type: none;
 }
-#optie1, #optie2{
+#optie1, #optie2, #optie3 {
+    padding: 4px 30px;
     color: white;
     text-decoration: none;
+    display: none;
 }
-#optie1:hover, #optie2:hover{
+#optie1:hover, #optie2:hover, #optie3:hover {
     color: darkgrey;
 }
-#musicplayer{
-    height: 125px;
-    width: 200px;
-    position: absolute;
-    right: 125px;
-    bottom: 0;
+#inventory {
+    border-left: 1px solid white;
+    float: right;
+    color: white;
+    display: none;
+    width: 39.8%;
+    height: 80px;
 }
-
-
-
-#kapiteinkoek{
-    height: 100%;
-    float:right;
-    overflow: auto;
+#inventory h2,p {
+    padding: 4px 30px;
 }
